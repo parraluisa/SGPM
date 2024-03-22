@@ -1,0 +1,21 @@
+.mat-toolbar {
+    background: #0097B2;
+    color: #000000;
+    height: 220px;
+}
+
+.parabolic-footer {
+    position: relative;
+}
+
+.parabolic-footer::before {
+    content: '';
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: white;
+    border-radius: 50% / 25%;
+    box-shadow: 0 0 0 10px white;
+}
