@@ -1,4 +1,28 @@
-.mat-toolbar {
-    background: #ffffff;
-    color: #000000;
+@font-face {
+    font-family: "Poppins";
+    src: url("/assets/fonts/Poppins/Poppins-Regular.tff") format("truetype");
+}
+
+.d-flex {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.btn-warning {
+    background-color: #F29E23;
+    height: auto;
+    width: auto;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Poppins, sans-serif;;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
